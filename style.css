@@ -1,0 +1,196 @@
+/*
+    Theme Name: HTML5 Blank Slate
+    Theme URI: https://github.com/FernE97/html5-blank-slate
+    Description: Foundation 6 starter theme
+    Author: Eric Fernandez
+    Author URI: https://hopsie.com/
+    Version: 3.6.0
+    License: WTFPL
+    License URI: http://sam.zoy.org/wtfpl/
+    Tags: blank, html5, sass, responsive
+*/
+
+/**
+ * Theme is compiled from scss under /assets/scss/_theme.scss
+ *
+ * theme.css under /assets/css is the main compiled file
+ * which can be edited BUT will be overwritten once it
+ * gets compiled again.
+ *
+ * Use the custom.css file in the themes root directory
+ * if you are not using a workflow that compiles scss.
+ */
+
+
+ /*--------------------------------------------------------------
+ My code
+ --------------------------------------------------------------*/
+
+
+ footer.site-footer {
+	width: 100%;
+	font-weight: 400;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding-left: 70px;
+	padding-bottom: 45px;
+	padding-top: 50px;
+	padding-right: 70px;
+	font-size: 18px;
+}
+
+.site-footer main {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-items: center;
+}
+
+/*width of left padding at 1st column in footer */
+div.column1 {
+/*	padding-left: 6.5em; */
+}
+
+div.column3 {
+	/* padding-right: 6.5em; */
+}
+
+a {
+	color: orange;
+}
+
+	.nav-main-wrap {
+		text-align: right;
+		vertical-align: middle;
+		padding-right: 1em;
+		padding-top: 0;
+    display: center;
+	}
+
+.nav-mobile-wrap {
+	display: none;
+}
+
+@media screen and (max-width: 900px) {
+	.nav-mobile-wrap {
+		display: block;
+		padding: 1em 1.5em 1em 0;
+		text-align: right;
+	}
+
+	.nav-main-wrap {
+		display: none;
+		text-align: right;
+		margin-right: 10px;
+
+	}
+}
+
+.current_page_item {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+li {
+		display: inline-block;
+	  margin-right: 40px;
+
+}
+
+.page_item.page-item-2 {
+	display: inline-block;
+}
+
+.sidebar {
+	      float: right;
+        margin-left: -100%;
+        max-width: 413px;
+        position: relative;
+        width: 25.4118%;
+        margin-top: -320px;
+}
+
+
+.group.post-2.page.type-page.status-publish.hentry {
+	max-width: 51em;
+  padding-left: 8.5em;
+	padding-bottom: 5em;
+}
+
+p {
+    padding-left: 8.5em;
+	  font-size: 1.125em;
+    line-height: 2.375rem;
+    max-width: 51rem;
+    margin-bottom: 1.5rem;
+    font-family: sans-serif;
+}
+
+img {
+	 max-width: 100%;
+}
+
+h1 {
+	  font-family: sans-serif;
+    font-weight: 400;
+	  position: relative;
+    left: -.05em;
+    max-width: 30.75rem;
+	  font-size: 4.25em;
+	  margin-left: 15%;
+}
+
+h3 {
+	  color: #2e3c40;
+    padding-right: 1em;
+    font-size: 2.25em;
+    line-height: 1.25em;
+    margin-bottom: 0;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+
+
+div.nav.group a {
+	color: grey;
+  font-size: 18px;
+	text-decoration-line: none;
+
+}
+/*deletd underline at URLs in footer*/
+div.column2 a {
+	text-decoration-line: none;
+}
+
+
+input {
+	line-height: 30px;
+	width: 180px;
+}
+
+/*grid on hp*/
+.content-wrap.index-content main {
+	display: grid;
+/*	padding: 50px; */
+	font-size: 20px;
+	display: grid;
+  grid-template-columns: repeat(2, 43%);
+  justify-items: center;
+}
+
+h4 {
+font-weight: 800;
+}
+
+.card {
+	width: 70%;
+}
+
+.image1, .image2 {
+	padding: 30px;
+}
+
+.card2 {
+	width: 70%;
+}
