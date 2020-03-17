@@ -18,8 +18,8 @@
 
 	<div class="column2"><h4>MENU</h4><br>
 	<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Home</a><br>
-		<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Sample page</a><br>
-			<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Sample page1</a>
+		<a href="https://hopsie.liveolife.net/sample-page/" target="_blank">Sample page</a><br>
+			<a href="https://hopsie.liveolife.net/sample-page/" target="_blank">Sample page1</a>
 	</div>
    <div class="column3">
         <label><h4>NEWSLETTER</h4><br>

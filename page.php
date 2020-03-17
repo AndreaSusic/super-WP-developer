@@ -11,7 +11,7 @@ get_header(); ?>
 
     <article <?php post_class( 'group' ); ?> role="article">
 
-    <h1>HOW IMPORTANT IS UI DESIGN</h1>
+    <h1>HOW IMPORTANT UI DESIGN IS</h1>
 		<h3>The level 3 heading (i.e. H3) is the third most important header in the document. </h3>
 
 	</article>
